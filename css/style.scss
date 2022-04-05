@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(./img/111.jpg) no-repeat;
+  background: url(../img/111.jpg) no-repeat;
   opacity: 0.9;
 }
 .container {  
@@ -77,10 +77,11 @@ body {
   }
  }
 
- @media (max-width: 320px) {
+ @media (max-width: 500px) {
   .container {
+    margin-top: 100px;
     width: 280px;    
-    margin: 0 auto;
+    
   }
 
   .timer__block {
