@@ -4,21 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
   <title>Stopwatch</title>
 </head>
 <body>
-  
-  <div class="stopwatch">
-    <h1>Секундомер</h1>
-    <div class="counter" id="counter">0</div>
-    <button role="button" id="button">Старт</button>
-    <button role="button" id="button">Пауза</button>
-    <button role="button" id="button">Сброс</button>
+  <div class="container">
+    <div class="stopwatch">
+        <div class="timer__block">
+          <div class="time" id="hour">00</div>
+          <div class="title">Часы</div>
+        </div>
+
+        <div class="timer__block">
+          <div class="time" id="minute">00</div>
+          <div class="title">Минуты</div>
+        </div>
+
+
+        <div class="timer__block">
+          <div class="time" id="second">00</div>
+          <div class="title">Секунды</div>
+        </div>
+    </div>    
+
+    <div class="buttons">
+      <button class="button" id="btnStart">Старт</button>
+      <button class="button" id="btnPause">Пауза</button>
+      <button class="button" id="btnReset">Сброс</button> 
+    </div>
   </div>
 
 
 
-<script src="/app.js"></script>  
+
+
+<script src="/js/app.js"></script>  
 </body>
 </html>
